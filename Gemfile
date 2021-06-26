@@ -28,6 +28,9 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem 'guard-livereload'
   
 end
+group :jekyll_plugins do
+  gem 'jekyll-livereload'
+end
 
 
 # Performance-booster for watching directories on Windows
