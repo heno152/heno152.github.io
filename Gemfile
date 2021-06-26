@@ -22,7 +22,7 @@ end
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", "~> 1.2"
-  gem 'jekyll'
+  gem 'hawkins'
   gem "tzinfo-data"
   gem 'guard'
   gem 'guard-jekyll-plus'
