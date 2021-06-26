@@ -26,11 +26,8 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem 'guard'
   gem 'guard-jekyll-plus'
   gem 'guard-livereload'
-  gem "jekyll-github-metadata"
-  gem "jekyll-octicons"
-  gem "jemoji"
-end
-bundle install
+ end
+
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
