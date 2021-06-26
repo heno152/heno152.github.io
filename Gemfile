@@ -26,7 +26,7 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem 'guard'
   gem 'guard-jekyll-plus'
   gem 'guard-livereload'
-  gem "github-pages"
+  
 end
 
 
