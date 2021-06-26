@@ -31,3 +31,6 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
+group :jekyll_plugins do
+  gem 'jekyll-twitch', 'https://github.com/sparklemotion/nokogiri.git', branch: 'main'
+end
