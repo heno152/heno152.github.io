@@ -30,15 +30,6 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "github-pages", group: :jekyll_plugins
 end
 
-guard 'jekyll-plus', :serve => true do
-  watch /.*/
-  ignore /^_site/
-end
-
-guard 'livereload' do
-  watch /.*/
-end
-
 group :jekyll_plugins do
   gem 'hawkins'
 end
